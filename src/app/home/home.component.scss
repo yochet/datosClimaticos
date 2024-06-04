@@ -1,0 +1,44 @@
+.background{
+    width: 100%;
+    height: 60vh; /* Ajusta la altura según tus necesidades */
+    background-image: url('../../assets/cambio-climatico.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+.background-trans {
+    width: 100%;
+    height: 60vh; /* Ajusta la altura según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de transparencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+.background-trans h1{
+    font-size: 100px;
+}
+
+.categiryView{ 
+    margin-right: 15px;
+    border: none;
+    border-radius: 6px;
+    font-family: futura;
+    color: white;
+    background-color: #1A36A8;
+    width: 240px;
+    height: 56px;
+  }
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
